@@ -1,0 +1,8 @@
+# Input: A string
+input_string <- "programming"
+
+# Get unique elements of the string
+unique_characters <- unique(strsplit(input_string, "")[[1]])
+
+# Print the unique elements
+cat("Unique characters in the string: ", paste(unique_characters, collapse = ""), "\n")
